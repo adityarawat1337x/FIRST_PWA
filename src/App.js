@@ -43,7 +43,7 @@ export default function App() {
             <div className={theme ? "info" : "info-br"}>
               <div className="blocks">
                 <div className="wind">{data.current.wind_mph} mph</div>
-                <span id="infoItem">Wind</span>
+                <span id="infoItem">Wind</span>t
               </div>
               <div className="blocks">
                 <div className="Precipitation">{data.current.precip_mm} mm</div>
