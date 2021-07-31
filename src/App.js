@@ -35,7 +35,6 @@ export default function App() {
         {(data.current && (
           <>
             <div className="icon">
-              00
               <img src={data.current.condition.icon} alt="IMAGE" />
               <div id="temp">{data.current.feelslike_c} *c</div>
               <div id="text">{data.current.condition.text}</div>
