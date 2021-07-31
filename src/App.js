@@ -35,7 +35,7 @@ export default function App() {
         {(data.current && (
           <>
             <div className="icon">
-              <img src={data.current.condition.icon} alt="IMAGE" />
+              <img src={data.current.condition.icon} alt="icon" />
               <div id="temp">{data.current.feelslike_c} *c</div>
               <div id="text">{data.current.condition.text}</div>
               <div id="place">{data.location.name}</div>
@@ -46,7 +46,7 @@ export default function App() {
                 <span id="infoItem">Wind</span>
               </div>
               <div className="blocks">
-                <div className="precipitation">{data.current.precip_mm} mm</div>
+                <div className="Precipitation">{data.current.precip_mm} mm</div>
                 <span id="infoItem">precipitation</span>
               </div>
               <div className="blocks">
